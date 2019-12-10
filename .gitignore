@@ -6,3 +6,5 @@ bin/Release/
 bin/Debug/
 
 obj/Debug/
+
+COVERAGE.sh
