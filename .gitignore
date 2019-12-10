@@ -2,3 +2,7 @@
 obj/Release/
 
 bin/Release/
+
+bin/Debug/
+
+obj/Debug/
