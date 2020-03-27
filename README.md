@@ -4,6 +4,9 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/iswenzz/auto-clicker/badge)](https://www.codefactor.io/repository/github/iswenzz/auto-clicker)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+Auto clicker is a program that automates mouse clicks. It provides many different options such your desired click intervals, click repeats, and which mouse button you want
+clicked automatically. More details can be found down below!
+
 ![](https://i.imgur.com/jYjIcG7.png)
 
 * Choose a custom interval to perform mouse tasks.
