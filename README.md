@@ -9,11 +9,20 @@ clicked automatically. More details can be found down below!
 
 ![](https://i.imgur.com/jYjIcG7.png)
 
+## Features
 * Choose a custom interval to perform mouse tasks.
 * Perform left, right or middle button mouse clicks.
 * Perform single click tasks, or double click tasks.
 * Click infinitely, or choose a limited number of times to click.
 
-## Download
+## Instructions
+In order to use this application, just download the archived file down below, and extract it to any destination. You can create a shortcut of the executable file and place it anywhere, and run it from said shortcut.
 
-https://github.com/Iswenzz/Auto-Clicker/releases
+## Building (Windows)
+_Pre-Requisites:_
+1. [Visual Studio](https://visualstudio.microsoft.com/)
+
+### [Download](https://github.com/Iswenzz/Auto-Clicker/releases)
+
+## Contributors:
+***Note:*** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code. Also feel free to post about any problems that may arise in the issues section of the repository.
