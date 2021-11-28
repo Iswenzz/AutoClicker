@@ -1,19 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Iswenzz.Tools</RootNamespace>
+    <RootNamespace>Iswenzz</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWindowsForms>true</UseWindowsForms>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
+    <Authors>Iswenzz</Authors>
+    <Company>Iswenzz.com</Company>
+    <FileVersion>1.0.1</FileVersion>
+    <Copyright>Iswenzz (c) 2019-2021</Copyright>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="GlobalHotKey" Version="1.1.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tools\" />
+    <PackageReference Include="Iswenzz.IzUI-NET" Version="1.0.4" />
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 # Auto Clicker
-[![Build status](https://ci.appveyor.com/api/projects/status/f5vw5qbcexeugrq1?svg=true)](https://ci.appveyor.com/project/Iswenzz/auto-clicker)
-[![codecov](https://codecov.io/gh/Iswenzz/Auto-Clicker/branch/master/graph/badge.svg)](https://codecov.io/gh/Iswenzz/Auto-Clicker)
-[![CodeFactor](https://www.codefactor.io/repository/github/iswenzz/auto-clicker/badge)](https://www.codefactor.io/repository/github/iswenzz/auto-clicker)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Checks](https://img.shields.io/github/checks-status/Iswenzz/Auto-Clicker/master?logo=github)](https://github.com/Iswenzz/Auto-Clicker/actions)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/Iswenzz/Auto-Clicker?label=codefactor&logo=codefactor)](https://www.codefactor.io/repository/github/iswenzz/Auto-Clicker)
+[![CodeCov](https://img.shields.io/codecov/c/github/Iswenzz/Auto-Clicker?label=codecov&logo=codecov)](https://codecov.io/gh/Iswenzz/Auto-Clicker)
+[![License](https://img.shields.io/github/license/Iswenzz/Auto-Clicker?color=blue&logo=gitbook&logoColor=white)](https://github.com/Iswenzz/Auto-Clicker/blob/master/LICENSE)
 
 Auto clicker is a program that automates mouse clicks. It provides many different options such your desired click intervals, click repeats, and which mouse button you want
 clicked automatically. More details can be found down below!
@@ -20,7 +20,7 @@ In order to use this application, just download the archived file down below, an
 
 ## Building (Windows)
 _Pre-Requisites:_
-1. [Visual Studio](https://visualstudio.microsoft.com/)
+1. [Visual Studio](https://visualstudio.microsoft.com/) or [Dotnet SDK](https://dotnet.microsoft.com/download)
 
 ### [Download](https://github.com/Iswenzz/Auto-Clicker/releases)
 
