@@ -196,5 +196,14 @@ namespace Iswenzz.Tools
         /// Hotkey capture box.
         /// </summary>
         private void HotKeyBox_Click(object sender, EventArgs e) => HotKeyBox.Text = "Press any key...";
+
+        /// <summary>
+        /// Form closing event.
+        /// </summary>
+        private void Clicker_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (HotKey != null)
+                HotKeyManager.Unregister(HotKey);
+        }
     }
 }

@@ -255,7 +255,7 @@
             this.RepeatButton.ForeColor = System.Drawing.Color.Gainsboro;
             this.RepeatButton.Location = new System.Drawing.Point(19, 39);
             this.RepeatButton.Name = "RepeatButton";
-            this.RepeatButton.Size = new System.Drawing.Size(160, 21);
+            this.RepeatButton.Size = new System.Drawing.Size(157, 21);
             this.RepeatButton.TabIndex = 1;
             this.RepeatButton.TabStop = true;
             this.RepeatButton.Text = "Repeat until stopped";
@@ -267,7 +267,7 @@
             this.RepeatAmountButton.ForeColor = System.Drawing.Color.Gainsboro;
             this.RepeatAmountButton.Location = new System.Drawing.Point(19, 12);
             this.RepeatAmountButton.Name = "RepeatAmountButton";
-            this.RepeatAmountButton.Size = new System.Drawing.Size(75, 21);
+            this.RepeatAmountButton.Size = new System.Drawing.Size(72, 21);
             this.RepeatAmountButton.TabIndex = 0;
             this.RepeatAmountButton.Text = "Repeat";
             this.RepeatAmountButton.UseVisualStyleBackColor = true;
@@ -305,7 +305,7 @@
             this.MiddleTick.ForeColor = System.Drawing.Color.Gainsboro;
             this.MiddleTick.Location = new System.Drawing.Point(123, 12);
             this.MiddleTick.Name = "MiddleTick";
-            this.MiddleTick.Size = new System.Drawing.Size(71, 21);
+            this.MiddleTick.Size = new System.Drawing.Size(68, 21);
             this.MiddleTick.TabIndex = 2;
             this.MiddleTick.Text = "Middle";
             this.MiddleTick.UseVisualStyleBackColor = true;
@@ -318,7 +318,7 @@
             this.LeftTick.ForeColor = System.Drawing.Color.Gainsboro;
             this.LeftTick.Location = new System.Drawing.Point(13, 39);
             this.LeftTick.Name = "LeftTick";
-            this.LeftTick.Size = new System.Drawing.Size(54, 21);
+            this.LeftTick.Size = new System.Drawing.Size(51, 21);
             this.LeftTick.TabIndex = 1;
             this.LeftTick.Text = "Left";
             this.LeftTick.UseVisualStyleBackColor = true;
@@ -329,7 +329,7 @@
             this.RightTick.ForeColor = System.Drawing.Color.Gainsboro;
             this.RightTick.Location = new System.Drawing.Point(13, 12);
             this.RightTick.Name = "RightTick";
-            this.RightTick.Size = new System.Drawing.Size(63, 21);
+            this.RightTick.Size = new System.Drawing.Size(60, 21);
             this.RightTick.TabIndex = 0;
             this.RightTick.Text = "Right";
             this.RightTick.UseVisualStyleBackColor = true;
@@ -418,7 +418,7 @@
             this.AlwaysTopTick.ForeColor = System.Drawing.Color.Gainsboro;
             this.AlwaysTopTick.Location = new System.Drawing.Point(306, 6);
             this.AlwaysTopTick.Name = "AlwaysTopTick";
-            this.AlwaysTopTick.Size = new System.Drawing.Size(117, 21);
+            this.AlwaysTopTick.Size = new System.Drawing.Size(114, 21);
             this.AlwaysTopTick.TabIndex = 11;
             this.AlwaysTopTick.Text = "Always on top";
             this.AlwaysTopTick.UseVisualStyleBackColor = true;
@@ -455,7 +455,7 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Settings";
             // 
-            // Form1
+            // Clicker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -476,8 +476,9 @@
             this.Controls.Add(this.StartButton);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Clicker";
             this.Text = "Auto Clicker";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Clicker_FormClosing);
             this.separatorPanel3.ResumeLayout(false);
             this.separatorPanel3.PerformLayout();
             this.separatorPanel4.ResumeLayout(false);
