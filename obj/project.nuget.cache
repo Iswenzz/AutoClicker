@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "uVDraVVBOAchMPGoChDrGZTx6cwLJYelvkH6bLMYGI5eZn9FdwdvBOGay+XVDZq1ecS7tQ5uOC3MzrvsIVGtTw==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\Iswenzz\\Work\\Programming\\Projects\\Auto Clicker\\Auto Clicker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Iswenzz\\.nuget\\packages\\globalhotkey\\1.1.0\\globalhotkey.1.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'GlobalHotKey 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "GlobalHotKey",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
