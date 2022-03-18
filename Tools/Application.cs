@@ -4,6 +4,8 @@ using System.Windows.Forms;
 using System.Windows.Input;
 using System.Linq;
 
+using IzButton = IzUI.WinForms.UI.Controls.Inputs.Button;
+
 namespace Iswenzz.Tools
 {
     /// <summary>
@@ -52,7 +54,7 @@ namespace Iswenzz.Tools
         /// Disable a button.
         /// </summary>
         /// <param name="button">The button to disable.</param>
-        private void DisableButton(UI.Controls.Inputs.Button button)
+        private void DisableButton(IzButton button)
         {
             button.Animations.ColorHover = Color.DimGray;
             button.Animations.ColorHoverLeave = Color.DimGray;
@@ -65,7 +67,7 @@ namespace Iswenzz.Tools
         /// Enable a button.
         /// </summary>
         /// <param name="button">The button to enable.</param>
-        private void EnableButton(UI.Controls.Inputs.Button button)
+        private void EnableButton(IzButton button)
         {
             button.Animations.ColorHover = Color.RoyalBlue;
             button.Animations.ColorHoverLeave = Color.RoyalBlue;

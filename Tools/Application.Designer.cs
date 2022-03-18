@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.StartButton = new Iswenzz.UI.Controls.Inputs.Button();
-            this.StopButton = new Iswenzz.UI.Controls.Inputs.Button();
-            this.separatorPanel3 = new Iswenzz.UI.Controls.Layout.PanelSeparator();
+            this.StartButton = new IzUI.WinForms.UI.Controls.Inputs.Button();
+            this.StopButton = new IzUI.WinForms.UI.Controls.Inputs.Button();
+            this.separatorPanel3 = new IzUI.WinForms.UI.Controls.Layout.PanelSeparator();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -39,7 +39,7 @@
             this.SecBox = new System.Windows.Forms.TextBox();
             this.MinBox = new System.Windows.Forms.TextBox();
             this.HourBox = new System.Windows.Forms.TextBox();
-            this.separatorPanel2 = new Iswenzz.UI.Controls.Layout.PanelSeparator();
+            this.separatorPanel2 = new IzUI.WinForms.UI.Controls.Layout.PanelSeparator();
             this.ClickCombo = new System.Windows.Forms.ComboBox();
             this.MiddleTick = new System.Windows.Forms.CheckBox();
             this.LeftTick = new System.Windows.Forms.CheckBox();
@@ -47,7 +47,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.separatorPanel1 = new Iswenzz.UI.Controls.Layout.PanelSeparator();
+            this.separatorPanel1 = new IzUI.WinForms.UI.Controls.Layout.PanelSeparator();
             this.HotKeyBox = new System.Windows.Forms.Label();
             this.AlwaysTopTick = new System.Windows.Forms.CheckBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -56,7 +56,7 @@
             this.RepeatButton = new System.Windows.Forms.RadioButton();
             this.RepeatBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.separatorPanel4 = new Iswenzz.UI.Controls.Layout.PanelSeparator();
+            this.separatorPanel4 = new IzUI.WinForms.UI.Controls.Layout.PanelSeparator();
             this.separatorPanel3.SuspendLayout();
             this.separatorPanel2.SuspendLayout();
             this.separatorPanel1.SuspendLayout();
@@ -115,7 +115,7 @@
             this.separatorPanel3.Animations.TextColorHover = System.Drawing.Color.Empty;
             this.separatorPanel3.Animations.TextColorHoverLeave = System.Drawing.Color.Empty;
             this.separatorPanel3.Border.Color = System.Drawing.Color.DimGray;
-            this.separatorPanel3.Border.Locations = Iswenzz.UI.Data.RectLocation.Top;
+            this.separatorPanel3.Border.Locations = IzUI.WinForms.UI.Data.RectLocation.Top;
             this.separatorPanel3.Border.Radius = new System.Drawing.Size(0, 0);
             this.separatorPanel3.Border.Width = 1F;
             this.separatorPanel3.Controls.Add(this.label8);
@@ -222,7 +222,7 @@
             this.separatorPanel2.Animations.TextColorHover = System.Drawing.Color.Empty;
             this.separatorPanel2.Animations.TextColorHoverLeave = System.Drawing.Color.Empty;
             this.separatorPanel2.Border.Color = System.Drawing.Color.DimGray;
-            this.separatorPanel2.Border.Locations = Iswenzz.UI.Data.RectLocation.Top;
+            this.separatorPanel2.Border.Locations = IzUI.WinForms.UI.Data.RectLocation.Top;
             this.separatorPanel2.Border.Radius = new System.Drawing.Size(0, 0);
             this.separatorPanel2.Border.Width = 1F;
             this.separatorPanel2.Controls.Add(this.ClickCombo);
@@ -323,7 +323,7 @@
             this.separatorPanel1.Animations.TextColorHover = System.Drawing.Color.Empty;
             this.separatorPanel1.Animations.TextColorHoverLeave = System.Drawing.Color.Empty;
             this.separatorPanel1.Border.Color = System.Drawing.Color.DimGray;
-            this.separatorPanel1.Border.Locations = Iswenzz.UI.Data.RectLocation.Top;
+            this.separatorPanel1.Border.Locations = IzUI.WinForms.UI.Data.RectLocation.Top;
             this.separatorPanel1.Border.Radius = new System.Drawing.Size(0, 0);
             this.separatorPanel1.Border.Width = 1F;
             this.separatorPanel1.Controls.Add(this.HotKeyBox);
@@ -434,7 +434,7 @@
             this.separatorPanel4.Animations.TextColorHover = System.Drawing.Color.Empty;
             this.separatorPanel4.Animations.TextColorHoverLeave = System.Drawing.Color.Empty;
             this.separatorPanel4.Border.Color = System.Drawing.Color.DimGray;
-            this.separatorPanel4.Border.Locations = Iswenzz.UI.Data.RectLocation.Top;
+            this.separatorPanel4.Border.Locations = IzUI.WinForms.UI.Data.RectLocation.Top;
             this.separatorPanel4.Border.Radius = new System.Drawing.Size(0, 0);
             this.separatorPanel4.Border.Width = 1F;
             this.separatorPanel4.Controls.Add(this.label9);
@@ -483,10 +483,10 @@
 
         #endregion
 
-        private Iswenzz.UI.Controls.Inputs.Button StartButton;
-        private Iswenzz.UI.Controls.Inputs.Button StopButton;
-        private Iswenzz.UI.Controls.Layout.PanelSeparator separatorPanel3;
-        private Iswenzz.UI.Controls.Layout.PanelSeparator separatorPanel2;
+        private IzUI.WinForms.UI.Controls.Inputs.Button StartButton;
+        private IzUI.WinForms.UI.Controls.Inputs.Button StopButton;
+        private IzUI.WinForms.UI.Controls.Layout.PanelSeparator separatorPanel3;
+        private IzUI.WinForms.UI.Controls.Layout.PanelSeparator separatorPanel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
@@ -494,12 +494,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
-        private Iswenzz.UI.Controls.Layout.PanelSeparator separatorPanel1;
+        private IzUI.WinForms.UI.Controls.Layout.PanelSeparator separatorPanel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckBox AlwaysTopTick;
         private System.Windows.Forms.Label label9;
-        private UI.Controls.Layout.PanelSeparator separatorPanel4;
+        private IzUI.WinForms.UI.Controls.Layout.PanelSeparator separatorPanel4;
         public System.Windows.Forms.TextBox MSBox;
         public System.Windows.Forms.TextBox SecBox;
         public System.Windows.Forms.TextBox MinBox;
