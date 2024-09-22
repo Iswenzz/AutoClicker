@@ -1,8 +1,8 @@
 # Auto Clicker
-[![Checks](https://img.shields.io/github/checks-status/Iswenzz/Auto-Clicker/master?logo=github)](https://github.com/Iswenzz/Auto-Clicker/actions)
-[![CodeFactor](https://img.shields.io/codefactor/grade/github/Iswenzz/Auto-Clicker?label=codefactor&logo=codefactor)](https://www.codefactor.io/repository/github/iswenzz/Auto-Clicker)
-[![CodeCov](https://img.shields.io/codecov/c/github/Iswenzz/Auto-Clicker?label=codecov&logo=codecov)](https://codecov.io/gh/Iswenzz/Auto-Clicker)
-[![License](https://img.shields.io/github/license/Iswenzz/Auto-Clicker?color=blue&logo=gitbook&logoColor=white)](https://github.com/Iswenzz/Auto-Clicker/blob/master/LICENSE)
+[![Checks](https://img.shields.io/github/checks-status/Iswenzz/AutoClicker/master?logo=github)](https://github.com/Iswenzz/AutoClicker/actions)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/Iswenzz/AutoClicker?label=codefactor&logo=codefactor)](https://www.codefactor.io/repository/github/iswenzz/AutoClicker)
+[![CodeCov](https://img.shields.io/codecov/c/github/Iswenzz/AutoClicker?label=codecov&logo=codecov)](https://codecov.io/gh/Iswenzz/AutoClicker)
+[![License](https://img.shields.io/github/license/Iswenzz/AutoClicker?color=blue&logo=gitbook&logoColor=white)](https://github.com/Iswenzz/AutoClicker/blob/master/LICENSE)
 
 Auto clicker is a program that automates mouse clicks. It provides many different options such your desired click intervals, click repeats, and which mouse button you want
 clicked automatically. More details can be found down below!
@@ -22,7 +22,7 @@ In order to use this application, just download the archived file down below, an
 _Pre-Requisites:_
 1. [Visual Studio](https://visualstudio.microsoft.com/) or [Dotnet SDK](https://dotnet.microsoft.com/download)
 
-### [Download](https://github.com/Iswenzz/Auto-Clicker/releases)
+### [Download](https://github.com/Iswenzz/AutoClicker/releases)
 
 ## Contributors:
 ***Note:*** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code. Also feel free to post about any problems that may arise in the issues section of the repository.
