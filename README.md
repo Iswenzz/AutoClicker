@@ -7,7 +7,7 @@
 Auto clicker is a program that automates mouse clicks. It provides many different options such your desired click intervals, click repeats, and which mouse button you want
 clicked automatically. More details can be found down below!
 
-![](https://i.imgur.com/BZV2aw6.png)
+![](https://i.imgur.com/Iquu9dr.png)
 
 ## Features
 * Choose a custom interval to perform mouse tasks.
