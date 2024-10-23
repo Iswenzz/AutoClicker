@@ -11,8 +11,7 @@ namespace AutoClicker.WinForms
         [STAThread]
         public static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            ApplicationConfiguration.Initialize();
             Application.Run(new MainForm());
         }
     }

@@ -10,12 +10,12 @@
     <StartupObject />
     <Authors>Iswenzz</Authors>
     <Company>Iswenzz.com</Company>
-    <FileVersion>1.0.2</FileVersion>
+    <FileVersion>1.0.3</FileVersion>
     <Copyright>Iswenzz (c) 2024</Copyright>
     <AssemblyName>AutoClicker</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="IzUI.WinForms" Version="1.1.0" />
+    <PackageReference Include="IzUI.WinForms" Version="1.2.0" />
     <PackageReference Include="NHotkey.WindowsForms" Version="3.0.0" />
   </ItemGroup>
   <ItemGroup>

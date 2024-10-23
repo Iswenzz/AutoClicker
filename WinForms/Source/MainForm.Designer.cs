@@ -30,7 +30,7 @@
         {
             StartButton = new IzUI.WinForms.UI.Controls.Inputs.Button();
             StopButton = new IzUI.WinForms.UI.Controls.Inputs.Button();
-            separatorPanel3 = new IzUI.WinForms.UI.Controls.Layout.PanelSeparator();
+            separatorPanel3 = new IzUI.WinForms.UI.Controls.Layout.Panel();
             label8 = new System.Windows.Forms.Label();
             label7 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
@@ -39,7 +39,7 @@
             SecBox = new System.Windows.Forms.TextBox();
             MinBox = new System.Windows.Forms.TextBox();
             HourBox = new System.Windows.Forms.TextBox();
-            separatorPanel2 = new IzUI.WinForms.UI.Controls.Layout.PanelSeparator();
+            separatorPanel2 = new IzUI.WinForms.UI.Controls.Layout.Panel();
             ClickCombo = new System.Windows.Forms.ComboBox();
             MiddleTick = new System.Windows.Forms.CheckBox();
             LeftTick = new System.Windows.Forms.CheckBox();
@@ -47,7 +47,7 @@
             label1 = new System.Windows.Forms.Label();
             label2 = new System.Windows.Forms.Label();
             label4 = new System.Windows.Forms.Label();
-            separatorPanel1 = new IzUI.WinForms.UI.Controls.Layout.PanelSeparator();
+            separatorPanel1 = new IzUI.WinForms.UI.Controls.Layout.Panel();
             HotKeyBox = new System.Windows.Forms.Label();
             AlwaysTopTick = new System.Windows.Forms.CheckBox();
             label10 = new System.Windows.Forms.Label();
@@ -56,7 +56,7 @@
             RepeatRadioLoop = new System.Windows.Forms.RadioButton();
             RepeatBox = new System.Windows.Forms.TextBox();
             label9 = new System.Windows.Forms.Label();
-            separatorPanel4 = new IzUI.WinForms.UI.Controls.Layout.PanelSeparator();
+            separatorPanel4 = new IzUI.WinForms.UI.Controls.Layout.Panel();
             separatorPanel3.SuspendLayout();
             separatorPanel2.SuspendLayout();
             separatorPanel1.SuspendLayout();
@@ -66,15 +66,17 @@
             // StartButton
             // 
             StartButton.Alpha.Enabled = true;
+            StartButton.Animations.BackgroundImageHover = null;
             StartButton.Animations.ColorHover = System.Drawing.Color.RoyalBlue;
             StartButton.Animations.CursorHover = System.Windows.Forms.Cursors.Hand;
             StartButton.Animations.Enabled = true;
-            StartButton.Animations.TextColorHover = System.Drawing.Color.DarkOrange;
-            StartButton.BackColor = System.Drawing.Color.SteelBlue;
+            StartButton.Animations.TextColorHover = System.Drawing.Color.WhiteSmoke;
+            StartButton.BackColor = System.Drawing.Color.DodgerBlue;
             StartButton.Border.Color = System.Drawing.Color.SteelBlue;
             StartButton.Border.Enabled = true;
             StartButton.Border.Radius = new System.Drawing.Size(0, 0);
             StartButton.Border.Width = 4F;
+            StartButton.Font = new System.Drawing.Font("Segoe UI", 10F);
             StartButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             StartButton.Icon.Enabled = true;
             StartButton.Icon.IconImage = null;
@@ -95,16 +97,18 @@
             // StopButton
             // 
             StopButton.Alpha.Enabled = true;
+            StopButton.Animations.BackgroundImageHover = null;
             StopButton.Animations.ColorHover = System.Drawing.Color.RoyalBlue;
             StopButton.Animations.CursorHover = System.Windows.Forms.Cursors.Hand;
             StopButton.Animations.Enabled = true;
-            StopButton.Animations.TextColorHover = System.Drawing.Color.DarkOrange;
+            StopButton.Animations.TextColorHover = System.Drawing.Color.WhiteSmoke;
             StopButton.BackColor = System.Drawing.Color.DimGray;
             StopButton.Border.Color = System.Drawing.Color.SteelBlue;
             StopButton.Border.Enabled = true;
             StopButton.Border.Radius = new System.Drawing.Size(0, 0);
             StopButton.Border.Width = 4F;
             StopButton.Enabled = false;
+            StopButton.Font = new System.Drawing.Font("Segoe UI", 10F);
             StopButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             StopButton.Icon.Enabled = true;
             StopButton.Icon.IconImage = null;
@@ -124,6 +128,7 @@
             // 
             // separatorPanel3
             // 
+            separatorPanel3.Animations.BackgroundImageHover = null;
             separatorPanel3.Animations.ColorHover = System.Drawing.Color.Empty;
             separatorPanel3.Animations.CursorHover = null;
             separatorPanel3.Animations.Enabled = false;
@@ -152,7 +157,8 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.ForeColor = System.Drawing.SystemColors.WindowText;
+            label8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label8.ForeColor = System.Drawing.Color.WhiteSmoke;
             label8.Location = new System.Drawing.Point(549, 25);
             label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label8.Name = "label8";
@@ -163,7 +169,8 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.ForeColor = System.Drawing.SystemColors.WindowText;
+            label7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label7.ForeColor = System.Drawing.Color.WhiteSmoke;
             label7.Location = new System.Drawing.Point(408, 25);
             label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label7.Name = "label7";
@@ -174,7 +181,8 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.ForeColor = System.Drawing.SystemColors.WindowText;
+            label6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label6.ForeColor = System.Drawing.Color.WhiteSmoke;
             label6.Location = new System.Drawing.Point(261, 25);
             label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label6.Name = "label6";
@@ -185,7 +193,8 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.ForeColor = System.Drawing.SystemColors.WindowText;
+            label5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label5.ForeColor = System.Drawing.Color.WhiteSmoke;
             label5.Location = new System.Drawing.Point(108, 25);
             label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label5.Name = "label5";
@@ -196,6 +205,7 @@
             // MSBox
             // 
             MSBox.BackColor = System.Drawing.Color.Gainsboro;
+            MSBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             MSBox.ForeColor = System.Drawing.SystemColors.WindowText;
             MSBox.Location = new System.Drawing.Point(461, 20);
             MSBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -208,6 +218,7 @@
             // SecBox
             // 
             SecBox.BackColor = System.Drawing.Color.Gainsboro;
+            SecBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             SecBox.ForeColor = System.Drawing.SystemColors.WindowText;
             SecBox.Location = new System.Drawing.Point(316, 20);
             SecBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -219,6 +230,7 @@
             // MinBox
             // 
             MinBox.BackColor = System.Drawing.Color.Gainsboro;
+            MinBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             MinBox.ForeColor = System.Drawing.SystemColors.WindowText;
             MinBox.Location = new System.Drawing.Point(170, 20);
             MinBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -230,6 +242,7 @@
             // HourBox
             // 
             HourBox.BackColor = System.Drawing.Color.Gainsboro;
+            HourBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             HourBox.ForeColor = System.Drawing.SystemColors.WindowText;
             HourBox.Location = new System.Drawing.Point(16, 20);
             HourBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -240,6 +253,7 @@
             // 
             // separatorPanel2
             // 
+            separatorPanel2.Animations.BackgroundImageHover = null;
             separatorPanel2.Animations.ColorHover = System.Drawing.Color.Empty;
             separatorPanel2.Animations.CursorHover = null;
             separatorPanel2.Animations.Enabled = false;
@@ -264,6 +278,7 @@
             // ClickCombo
             // 
             ClickCombo.BackColor = System.Drawing.Color.Gainsboro;
+            ClickCombo.Font = new System.Drawing.Font("Segoe UI", 9F);
             ClickCombo.ForeColor = System.Drawing.SystemColors.WindowText;
             ClickCombo.FormattingEnabled = true;
             ClickCombo.Items.AddRange(new object[] { "Click", "Double Click" });
@@ -277,7 +292,8 @@
             // MiddleTick
             // 
             MiddleTick.AutoSize = true;
-            MiddleTick.ForeColor = System.Drawing.SystemColors.WindowText;
+            MiddleTick.Font = new System.Drawing.Font("Segoe UI", 9F);
+            MiddleTick.ForeColor = System.Drawing.Color.WhiteSmoke;
             MiddleTick.Location = new System.Drawing.Point(154, 19);
             MiddleTick.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             MiddleTick.Name = "MiddleTick";
@@ -291,7 +307,8 @@
             LeftTick.AutoSize = true;
             LeftTick.Checked = true;
             LeftTick.CheckState = System.Windows.Forms.CheckState.Checked;
-            LeftTick.ForeColor = System.Drawing.SystemColors.WindowText;
+            LeftTick.Font = new System.Drawing.Font("Segoe UI", 9F);
+            LeftTick.ForeColor = System.Drawing.Color.WhiteSmoke;
             LeftTick.Location = new System.Drawing.Point(16, 61);
             LeftTick.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             LeftTick.Name = "LeftTick";
@@ -303,7 +320,8 @@
             // RightTick
             // 
             RightTick.AutoSize = true;
-            RightTick.ForeColor = System.Drawing.SystemColors.WindowText;
+            RightTick.Font = new System.Drawing.Font("Segoe UI", 9F);
+            RightTick.ForeColor = System.Drawing.Color.WhiteSmoke;
             RightTick.Location = new System.Drawing.Point(16, 19);
             RightTick.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             RightTick.Name = "RightTick";
@@ -315,7 +333,8 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.ForeColor = System.Drawing.SystemColors.WindowText;
+            label1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             label1.Location = new System.Drawing.Point(22, 11);
             label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label1.Name = "label1";
@@ -326,7 +345,8 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.ForeColor = System.Drawing.SystemColors.WindowText;
+            label2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             label2.Location = new System.Drawing.Point(22, 159);
             label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label2.Name = "label2";
@@ -337,7 +357,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.ForeColor = System.Drawing.SystemColors.WindowText;
+            label4.ForeColor = System.Drawing.Color.WhiteSmoke;
             label4.Location = new System.Drawing.Point(318, 159);
             label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label4.Name = "label4";
@@ -347,6 +367,7 @@
             // 
             // separatorPanel1
             // 
+            separatorPanel1.Animations.BackgroundImageHover = null;
             separatorPanel1.Animations.ColorHover = System.Drawing.Color.Empty;
             separatorPanel1.Animations.CursorHover = null;
             separatorPanel1.Animations.Enabled = false;
@@ -370,6 +391,7 @@
             // HotKeyBox
             // 
             HotKeyBox.BackColor = System.Drawing.Color.Gainsboro;
+            HotKeyBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             HotKeyBox.ForeColor = System.Drawing.SystemColors.WindowText;
             HotKeyBox.Location = new System.Drawing.Point(16, 17);
             HotKeyBox.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -385,7 +407,8 @@
             AlwaysTopTick.AutoSize = true;
             AlwaysTopTick.Checked = true;
             AlwaysTopTick.CheckState = System.Windows.Forms.CheckState.Checked;
-            AlwaysTopTick.ForeColor = System.Drawing.SystemColors.WindowText;
+            AlwaysTopTick.Font = new System.Drawing.Font("Segoe UI", 9F);
+            AlwaysTopTick.ForeColor = System.Drawing.Color.WhiteSmoke;
             AlwaysTopTick.Location = new System.Drawing.Point(396, 21);
             AlwaysTopTick.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             AlwaysTopTick.Name = "AlwaysTopTick";
@@ -398,7 +421,8 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.ForeColor = System.Drawing.SystemColors.WindowText;
+            label10.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label10.ForeColor = System.Drawing.Color.WhiteSmoke;
             label10.Location = new System.Drawing.Point(170, 20);
             label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label10.Name = "label10";
@@ -409,7 +433,8 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.ForeColor = System.Drawing.SystemColors.WindowText;
+            label3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label3.ForeColor = System.Drawing.Color.WhiteSmoke;
             label3.Location = new System.Drawing.Point(22, 359);
             label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label3.Name = "label3";
@@ -420,7 +445,8 @@
             // RepeatRadioTimes
             // 
             RepeatRadioTimes.AutoSize = true;
-            RepeatRadioTimes.ForeColor = System.Drawing.SystemColors.WindowText;
+            RepeatRadioTimes.Font = new System.Drawing.Font("Segoe UI", 9F);
+            RepeatRadioTimes.ForeColor = System.Drawing.Color.WhiteSmoke;
             RepeatRadioTimes.Location = new System.Drawing.Point(24, 19);
             RepeatRadioTimes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             RepeatRadioTimes.Name = "RepeatRadioTimes";
@@ -433,7 +459,8 @@
             // 
             RepeatRadioLoop.AutoSize = true;
             RepeatRadioLoop.Checked = true;
-            RepeatRadioLoop.ForeColor = System.Drawing.SystemColors.WindowText;
+            RepeatRadioLoop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            RepeatRadioLoop.ForeColor = System.Drawing.Color.WhiteSmoke;
             RepeatRadioLoop.Location = new System.Drawing.Point(24, 61);
             RepeatRadioLoop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             RepeatRadioLoop.Name = "RepeatRadioLoop";
@@ -446,6 +473,7 @@
             // RepeatBox
             // 
             RepeatBox.BackColor = System.Drawing.Color.Gainsboro;
+            RepeatBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             RepeatBox.ForeColor = System.Drawing.SystemColors.WindowText;
             RepeatBox.Location = new System.Drawing.Point(130, 19);
             RepeatBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -457,7 +485,8 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.ForeColor = System.Drawing.SystemColors.WindowText;
+            label9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            label9.ForeColor = System.Drawing.Color.WhiteSmoke;
             label9.Location = new System.Drawing.Point(231, 22);
             label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label9.Name = "label9";
@@ -467,6 +496,7 @@
             // 
             // separatorPanel4
             // 
+            separatorPanel4.Animations.BackgroundImageHover = null;
             separatorPanel4.Animations.ColorHover = System.Drawing.Color.Empty;
             separatorPanel4.Animations.CursorHover = null;
             separatorPanel4.Animations.Enabled = false;
@@ -492,7 +522,7 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            BackColor = System.Drawing.SystemColors.Window;
+            BackColor = System.Drawing.Color.FromArgb(20, 20, 20);
             ClientSize = new System.Drawing.Size(648, 617);
             Controls.Add(label3);
             Controls.Add(separatorPanel1);
@@ -505,6 +535,7 @@
             Controls.Add(StopButton);
             Controls.Add(StartButton);
             DoubleBuffered = true;
+            Font = new System.Drawing.Font("Segoe UI", 9F);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             MaximizeBox = false;
@@ -526,8 +557,8 @@
 
         private IzUI.WinForms.UI.Controls.Inputs.Button StartButton;
         private IzUI.WinForms.UI.Controls.Inputs.Button StopButton;
-        private IzUI.WinForms.UI.Controls.Layout.PanelSeparator separatorPanel3;
-        private IzUI.WinForms.UI.Controls.Layout.PanelSeparator separatorPanel2;
+        private IzUI.WinForms.UI.Controls.Layout.Panel separatorPanel3;
+        private IzUI.WinForms.UI.Controls.Layout.Panel separatorPanel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
@@ -535,12 +566,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
-        private IzUI.WinForms.UI.Controls.Layout.PanelSeparator separatorPanel1;
+        private IzUI.WinForms.UI.Controls.Layout.Panel separatorPanel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckBox AlwaysTopTick;
         private System.Windows.Forms.Label label9;
-        private IzUI.WinForms.UI.Controls.Layout.PanelSeparator separatorPanel4;
+        private IzUI.WinForms.UI.Controls.Layout.Panel separatorPanel4;
         public System.Windows.Forms.TextBox MSBox;
         public System.Windows.Forms.TextBox SecBox;
         public System.Windows.Forms.TextBox MinBox;

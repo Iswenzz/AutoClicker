@@ -7,7 +7,7 @@
     <RootNamespace>AutoClicker.Core</RootNamespace>
     <AssemblyName>AutoClicker.Core</AssemblyName>
     <Copyright>Iswenzz (c) 2024</Copyright>
-    <FileVersion>1.0.2</FileVersion>
+    <FileVersion>1.0.3</FileVersion>
   </PropertyGroup>
 
 </Project>
