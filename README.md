@@ -4,10 +4,10 @@
 [![CodeCov](https://img.shields.io/codecov/c/github/Iswenzz/AutoClicker?label=codecov&logo=codecov)](https://codecov.io/gh/Iswenzz/AutoClicker)
 [![License](https://img.shields.io/github/license/Iswenzz/AutoClicker?color=blue&logo=gitbook&logoColor=white)](https://github.com/Iswenzz/AutoClicker/blob/master/LICENSE)
 
+![](https://i.imgur.com/RQnPK8v.png)
+
 Auto clicker is a program that automates mouse clicks. It provides many different options such your desired click intervals, click repeats, and which mouse button you want
 clicked automatically. More details can be found down below!
-
-![](https://i.imgur.com/Iquu9dr.png)
 
 ## Features
 * Choose a custom interval to perform mouse tasks.
