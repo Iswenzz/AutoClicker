@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AutoClicker.WinForms</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+    <Authors>Iswenzz</Authors>
+    <Company>Iswenzz.com</Company>
+    <FileVersion>1.0.3</FileVersion>
+    <Copyright>Iswenzz (c) 2024</Copyright>
+    <AssemblyName>AutoClicker</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NHotkey.WindowsForms" Version="3.0.0" />
+  </ItemGroup>
+</Project>
