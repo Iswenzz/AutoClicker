@@ -1,7 +1,4 @@
 # Auto Clicker
-[![Checks](https://img.shields.io/github/check-runs/Iswenzz/AutoClicker/master?logo=github)](https://github.com/Iswenzz/AutoClicker/actions)
-[![CodeFactor](https://img.shields.io/codefactor/grade/github/Iswenzz/AutoClicker?label=codefactor&logo=codefactor)](https://www.codefactor.io/repository/github/iswenzz/AutoClicker)
-[![License](https://img.shields.io/github/license/Iswenzz/AutoClicker?color=blue&logo=gitbook&logoColor=white)](https://github.com/Iswenzz/AutoClicker/blob/master/LICENSE)
 
 ![](https://i.imgur.com/RQnPK8v.png)
 
